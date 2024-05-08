@@ -64,4 +64,24 @@ body {
     justify-content:center;
     align-items:center;
     cursor:pointer;
+    transition:all 0.3s;
+}
+.square:hover {
+    background-color: darkgray;
+}
+.action-btn {
+    background-color: white;
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 30px ;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 5px 13px rgb(0,0,0, 0.3);
+    cursor:pointer;
+    transition: all 0.3s;
+}
+.action-btn:hover {
+    box-shadow:0px 5px 13px rgb(0,0,0, 0.7); 
+    background-color: darkgray;
 }
