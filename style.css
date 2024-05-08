@@ -12,6 +12,7 @@
 }
 
 body {
+    font-family: "Shantell Sans", cursive;  
     background-color:lightgray;
     margin: 0px;
 }
@@ -45,6 +46,9 @@ body {
 #grid-conatiner {
     background-color: white;
     display: grid;
+    font-size: 30px;
+    color: yellowgreen;
+    font-weight: bold;
     grid-template-columns: auto auto auto;
     margin:30px;
     padding:20px;
@@ -69,11 +73,19 @@ body {
 .square:hover {
     background-color: darkgray;
 }
+/* .square-content {
+    width: 20px;
+    height: 20px;
+    font-size: 20px ;
+    padding: 0px;
+
+} */
 .action-btn {
     background-color: white;
+    font-family: "Shantell Sans", cursive; 
     color: yellowgreen;
     font-weight: bold;
-    font-size: 20px;
+    font-size:25px;
     padding: 15px 30px ;
     border: none;
     border-radius: 30px;
