@@ -1,3 +1,0 @@
-1- make it habbit to start with a div for all your content.
-div snip:
-div#all-contentEnter = <div id="all-content"></div>
